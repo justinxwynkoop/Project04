@@ -1,0 +1,4 @@
+CS 420
+
+Design and build an ASP .NET Web Application to allow the user to search for content within the iTunes Store and the App Store. Use the JSON response from the search service. Information about the Apple Search API can be found here -https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/Provide the user with a text field to enter the search term. Allow the user to choose one of "Music", "Movie", and "Software" as the entity from a drop down list. The user selects an entity, enters a search term, and then clicks the Search button. Upon clicking the Search button, the search results should be displayed in a table. Upon clicking any search result, more information should be displayed about the result. Provide appropriate navigation for the user. 
+
