@@ -5,12 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="Style.css">
+    <style type="text/css">
+        .auto-style1 {
+            width: 131px;
+            height: 130px;
+        }
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="lblMedia" runat="server" Text="Media Type: "></asp:Label>
-            1&nbsp;&nbsp;&nbsp;
+    <form class="box" action="WebForm1.aspx" method="post" runat="server">
+        <div class="stage">
+            <img alt="" class="auto-style1" src="ITunesLogo.png" />
+            <h1>iTunes Lookup</h1>
+            <h4>Select Media Type</h4>
             <asp:DropDownList ID="ddlMedia" runat="server">
             </asp:DropDownList>
             <br />
@@ -19,7 +27,8 @@
                 
         &nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" />
-               
+            </div>
+            <div>
             <br />
             <br />
             <asp:Panel ID="pnlTable" runat="server">
@@ -27,5 +36,6 @@
                
         </div>
     </form>
+
 </body>
 </html>

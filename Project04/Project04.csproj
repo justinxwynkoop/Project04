@@ -75,6 +75,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ITunesLogo.png" />
     <Content Include="MoreInfo.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
