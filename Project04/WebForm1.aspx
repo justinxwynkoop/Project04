@@ -18,8 +18,8 @@
         <div>
             <img alt="" class="auto-style1" src="ITunesLogo.png" />
             <h1>iTunes Lookup</h1>
-            <h4>Select Media Type</h4>
-            <asp:DropDownList ID="ddlMedia" runat="server">
+            <h4>Select Media Type:</h4>
+            <asp:DropDownList type="list" ID="ddlMedia" runat="server">
             </asp:DropDownList>
             <br />
             <br />
@@ -30,7 +30,8 @@
 
             <br />
             <br />
-            <asp:Panel ID="pnlTable" runat="server">
+            <asp:Panel type="panel" ID="pnlTable" runat="server" ForeColor="White">
+                <hr />
             </asp:Panel>
                
         </div>

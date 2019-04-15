@@ -86,7 +86,7 @@ namespace Project04
                     row.Controls.Add(cell3);
                     row.Controls.Add(cell4);
                     table.Controls.Add(row);
-
+                    
                 }
             }
             else if (ddlMedia.SelectedValue == "movie")
