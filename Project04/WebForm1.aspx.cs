@@ -19,6 +19,7 @@ namespace Project04
         {
             if (!IsPostBack)
             {
+                
                 ddlMedia.Items.Add(new ListItem("Music", "music"));
                 ddlMedia.Items.Add(new ListItem("Movie", "movie"));
                 ddlMedia.Items.Add(new ListItem("Software", "software"));
